@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-17T07:44:07.000Z</updated>
+  <updated>2016-03-17T08:05:46.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,1375 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2016/03/17/Fresco%E8%AF%A6%E8%A7%A3/"/>
+    <id>http://yoursite.com/2016/03/17/Fresco详解/</id>
+    <published>2016-03-17T08:05:46.000Z</published>
+    <updated>2016-03-17T08:05:46.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;link href=&quot;http://static.blog.csdn.net/css/comment1.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;link href=&quot;http://static.blog.csdn.net/css/style1.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;&lt;/p&gt;
+&lt;script language=&quot;JavaScript&quot; type=&quot;text/javascript&quot; src=&quot;http://download.csdn.net/js/jquery.cookie.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://c.csdnimg.cn/rabbit/search-service/main.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;http://static.blog.csdn.net/public/res-min/markdown_views.css?v=1.0&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;http://static.blog.csdn.net/css/category.css?v=1.0&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://static.blog.csdn.net/public/res/bower-libs/MathJax/MathJax.js?config=TeX-AMS_HTML&quot;&gt;&lt;/script&gt;
+
+ &lt;script type=&quot;text/javascript&quot; src=&quot;http://static.blog.csdn.net/scripts/web-storage-cache.min.js&quot;&gt;&lt;/script&gt;
+
+
+  &lt;script type=&quot;text/ecmascript&quot;&gt;
+      window.quickReplyflag = true;
+
+            var isBole = false;
+
+
+    &lt;/script&gt;
+&lt;div id=&quot;article_details&quot; class=&quot;details&quot;&gt;
+    &lt;div class=&quot;article_title&quot;&gt;   
+         &lt;span class=&quot;ico ico_type_Original&quot;&gt;&lt;/span&gt;
+
+
+    &lt;h1&gt;
+        &lt;span class=&quot;link_title&quot;&gt;&lt;a href=&quot;/y1scp/article/details/49245535&quot;&gt;
+        Android图片加载神器之Fresco-加载图片基础[详细图解Fresco的使用]            
+        &lt;/a&gt;&lt;/span&gt;
+    &lt;/h1&gt;
+&lt;/div&gt;
+
+
+
+        &lt;div class=&quot;article_manage clearfix&quot;&gt;
+        &lt;div class=&quot;article_l&quot;&gt;
+            &lt;span class=&quot;link_categories&quot;&gt;
+            标签：
+              &lt;a href=&quot;http://www.csdn.net/tag/android&quot; target=&quot;_blank&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_tag&#39;]);&quot;&gt;android&lt;/a&gt;&lt;a href=&quot;http://www.csdn.net/tag/Fresco&quot; target=&quot;_blank&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_tag&#39;]);&quot;&gt;Fresco&lt;/a&gt;&lt;a href=&quot;http://www.csdn.net/tag/SimpleDraw&quot; target=&quot;_blank&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_tag&#39;]);&quot;&gt;SimpleDraw&lt;/a&gt;&lt;a href=&quot;http://www.csdn.net/tag/%e5%8a%a0%e8%bd%bd%e5%9b%be%e7%89%87&quot; target=&quot;_blank&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_tag&#39;]);&quot;&gt;加载图片&lt;/a&gt;
+            &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;article_r&quot;&gt;
+            &lt;span class=&quot;link_postdate&quot;&gt;2015-10-19 08:13&lt;/span&gt;
+            &lt;span class=&quot;link_view&quot; title=&quot;阅读次数&quot;&gt;6037人阅读&lt;/span&gt;
+            &lt;span class=&quot;link_comments&quot; title=&quot;评论次数&quot;&gt; &lt;a href=&quot;#comments&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_pinglun&#39;])&quot;&gt;评论&lt;/a&gt;(15)&lt;/span&gt;
+            &lt;span class=&quot;link_collect tracking-ad&quot; data-mod=&quot;popu_171&quot;&gt; &lt;a href=&quot;javascript:void(0);&quot; onclick=&quot;javascript:collectArticle(&#39;Android图片加载神器之Fresco-加载图片基础[详细图解Fresco的使用]&#39;,&#39;49245535&#39;);return false;&quot; title=&quot;收藏&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;收藏&lt;/a&gt;&lt;/span&gt;
+             &lt;span class=&quot;link_report&quot;&gt; &lt;a href=&quot;#report&quot; onclick=&quot;javascript:report(49245535,2);return false;&quot; title=&quot;举报&quot;&gt;举报&lt;/a&gt;&lt;/span&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;embody&quot; style=&quot;display:none&quot; id=&quot;embody&quot;&gt;
+        &lt;span class=&quot;embody_t&quot;&gt;本文章已收录于：&lt;/span&gt;
+        &lt;div class=&quot;embody_c&quot; id=&quot;lib&quot; value=&quot;{&amp;quot;err&amp;quot;:0,&amp;quot;msg&amp;quot;:&amp;quot;ok&amp;quot;,&amp;quot;data&amp;quot;:[]}&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;style type=&quot;text/css&quot;&gt;        
+            .embody{
+                padding:10px 10px 10px;
+                margin:0 -20px;
+                border-bottom:solid 1px #ededed;                
+            }
+            .embody_b{
+                margin:0 ;
+                padding:10px 0;
+            }
+            .embody .embody_t,.embody .embody_c{
+                display: inline-block;
+                margin-right:10px;
+            }
+            .embody_t{
+                font-size: 12px;
+                color:#999;
+            }
+            .embody_c{
+                font-size: 12px;
+            }
+            .embody_c img,.embody_c em{
+                display: inline-block;
+                vertical-align: middle;               
+            }
+             .embody_c img{               
+                width:30px;
+                height:30px;
+            }
+            .embody_c em{
+                margin: 0 20px 0 10px;
+                color:#333;
+                font-style: normal;
+            }
+    &lt;/style&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        $(function () {
+            var lib = eval(&quot;(&quot;+$(&quot;#lib&quot;).attr(&quot;value&quot;)+&quot;)&quot;);
+            var html = &quot;&quot;;
+            if (lib.err == 0) {
+                $.each(lib.data, function (i) {
+                    var obj = lib.data[i];
+                    //html += &#39;&lt;img src=&quot;&#39; + obj.logo + &#39;&quot;/&gt;&#39; + obj.name + &quot;&amp;nbsp;&amp;nbsp;&quot;;
+                    html += &#39; &lt;a href=&quot;&#39; + obj.url + &#39;&quot; target=&quot;_blank&quot;&gt;&#39;;
+                    html += &#39; &lt;img src=&quot;&#39; + obj.logo + &#39;&quot;&gt;&#39;;
+                    html += &#39; &lt;em&gt;&lt;b&gt;&#39; + obj.name + &#39;&lt;/b&gt;&lt;/em&gt;&#39;;
+                    html += &#39; &lt;/a&gt;&#39;;
+                });
+                if (html != &quot;&quot;) {
+                    setTimeout(function () {
+                        $(&quot;#lib&quot;).html(html);
+                        /*
+                        var testhtml = &quot;&quot;;
+                        testhtml += &#39;&lt;a href=&quot;#&quot;&gt;&#39;;
+                        testhtml += &#39;&lt;img src=&quot;http://img.knowledge.csdn.net/upload/base/1455589744328_328.jpg&quot;&gt;&#39;;
+                        testhtml += &#39;&lt;em&gt;Android知识库&lt;/em&gt;&#39;;
+                        testhtml += &#39;&lt;/a&gt;&#39;;
+                        $(&quot;.embody_c&quot;).html(testhtml);
+                        */
+                        $(&quot;#embody&quot;).show();
+                    }, 100);
+                }
+            }          
+
+        });
+    &lt;/script&gt;
+      &lt;div class=&quot;category clearfix&quot;&gt;
+        &lt;div class=&quot;category_l&quot;&gt;
+           &lt;img src=&quot;http://static.blog.csdn.net/images/category_icon.jpg&quot;&gt;
+            &lt;span&gt;分类：&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;category_r&quot;&gt;
+                    &lt;label onclick=&quot;GetCategoryArticles(&#39;3142345&#39;,&#39;y1scp&#39;,&#39;top&#39;,&#39;49245535&#39;);&quot;&gt;
+                        &lt;span onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_fenlei&#39;]);&quot;&gt;Android中级篇&lt;em&gt;（12）&lt;/em&gt;&lt;/span&gt;
+                      &lt;img class=&quot;arrow-down&quot; src=&quot;http://static.blog.csdn.net/images/arrow_triangle _down.jpg&quot; style=&quot;display:inline;&quot;&gt;
+                      &lt;img class=&quot;arrow-up&quot; src=&quot;http://static.blog.csdn.net/images/arrow_triangle_up.jpg&quot; style=&quot;display:none;&quot;&gt;
+                        &lt;div class=&quot;subItem&quot;&gt;
+                            &lt;div class=&quot;subItem_t&quot;&gt;&lt;a href=&quot;http://blog.csdn.net/y1scp/article/category/3142345&quot; target=&quot;_blank&quot;&gt;作者同类文章&lt;/a&gt;&lt;i class=&quot;J_close&quot;&gt;X&lt;/i&gt;&lt;/div&gt;
+                            &lt;ul class=&quot;subItem_l&quot; id=&quot;top_3142345&quot;&gt;                            
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/label&gt;                    
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;http://static.blog.csdn.net/scripts/category.js&quot;&gt;&lt;/script&gt;  
+        &lt;div class=&quot;bog_copyright&quot;&gt;         
+            &lt;p class=&quot;copyright_p&quot;&gt;版权声明：本文为博主原创文章，未经博主允许不得转载。&lt;/p&gt;
+        &lt;/div&gt;
+
+
+
+
+
+
+
+&lt;div id=&quot;article_content&quot; class=&quot;article_content&quot;&gt;
+        &lt;div class=&quot;markdown_views&quot;&gt;&lt;h1 id=&quot;fresco简单的使用simpledraweeview&quot;&gt;Fresco简单的使用—SimpleDraweeView&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&quot;百学须先立志学前须知&quot;&gt;百学须先立志—学前须知：&lt;/h4&gt;
+
+&lt;p&gt;在我们平时加载图片(不管是下载还是加载本地图片…..)的时候，我们经常会遇到这样一个需求，那就是当图片正在加载时应该呈现正在加载时的图像，当图片加载失败时应该呈现图片加载时的图像，当我们重新加载这张图片时，应该呈现重试时图像，直到这张图片加载完成。这些繁琐并且重复的如果得不到简化的话，那将是一个开发人员的噩梦，现在好了，我们用 &lt;strong&gt;Facebook&lt;/strong&gt; 出品的一个强大的图片加载组件 &lt;strong&gt;Fresco&lt;/strong&gt; 几行代码就可以搞定以上问题了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;尽信书不如无书能学到什么&quot;&gt;尽信书，不如无书—能学到什么？&lt;/h4&gt;
+
+&lt;p&gt;1、SimpleDraweeView最基本的使用 &lt;br&gt;
+2、SimpleDraweeView的圆形图 &lt;br&gt;
+3、SimpleDraweeView的圆角图 &lt;br&gt;
+4、SimpleDraweeView的缩放类型&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;工欲善其事必先利其器下载fresco并导入到项目&quot;&gt;工欲善其事必先利其器—下载Fresco并导入到项目&lt;/h4&gt;
+
+&lt;p&gt;Fresco中文说明：&lt;a href=&quot;http://www.fresco-cn.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.fresco-cn.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fresco项目GitHub地址：&lt;a href=&quot;https://github.com/facebook/fresco&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/facebook/fresco&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;第一步进入 &lt;strong&gt;Fresco项目GitHub地址&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014140859679&quot; alt=&quot;第一步&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;第二步添加Fresco到项目工程：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014140430949&quot; alt=&quot;使用说明&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;第三步服务及权限：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs xml&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;&amp;lt;!-- 访问网络的权限 --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;uses-permission&lt;/span&gt; &lt;span class=&quot;hljs-attribute&quot;&gt;android:name&lt;/span&gt;=&lt;span class=&quot;hljs-value&quot;&gt;&quot;android.permission.INTERNET&quot;&lt;/span&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014144038688&quot; alt=&quot;服务及权限&quot; title=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;常见问题&quot;&gt;常见问题：&lt;/h4&gt;
+
+&lt;p&gt;初次使用，我们就先简单书写我们的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_adv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;300dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;300dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码分析：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014170711232&quot; alt=&quot;初次加载&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 实现代码：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs java&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-class&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;MainActivity&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;AppCompatActivity&lt;/span&gt; {&lt;/span&gt;
+
+    &lt;span class=&quot;hljs-annotation&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;hljs-keyword&quot;&gt;protected&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;onCreate&lt;/span&gt;(Bundle savedInstanceState) {
+        &lt;span class=&quot;hljs-keyword&quot;&gt;super&lt;/span&gt;.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;简单的书写完布局和实现代码之后我们来运行一下。&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;        java&lt;span class=&quot;hljs-preprocessor&quot;&gt;.lang&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.RuntimeException&lt;/span&gt;: Unable to start activity ComponentInfo{scp&lt;span class=&quot;hljs-preprocessor&quot;&gt;.com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.frescodemo&lt;/span&gt;/scp&lt;span class=&quot;hljs-preprocessor&quot;&gt;.com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.frescodemo&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.MainActivity&lt;/span&gt;}: 
+
+&lt;span class=&quot;hljs-label&quot;&gt;android.view.InflateException:&lt;/span&gt; Binary XML file line &lt;span class=&quot;hljs-preprocessor&quot;&gt;#5: Error inflating class com.facebook.drawee.view.SimpleDraweeView&lt;/span&gt;
+                at android&lt;span class=&quot;hljs-preprocessor&quot;&gt;.app&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.ActivityThread&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.performLaunchActivity&lt;/span&gt;(ActivityThread&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;2264&lt;/span&gt;)
+                at android&lt;span class=&quot;hljs-preprocessor&quot;&gt;.app&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.ActivityThread&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.handleLaunchActivity&lt;/span&gt;(ActivityThread&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;2313&lt;/span&gt;)
+                at android&lt;span class=&quot;hljs-preprocessor&quot;&gt;.app&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.ActivityThread&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.access&lt;/span&gt;$1100(ActivityThread&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;141&lt;/span&gt;)
+                at android&lt;span class=&quot;hljs-preprocessor&quot;&gt;.app&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.ActivityThread&lt;/span&gt;$H&lt;span class=&quot;hljs-preprocessor&quot;&gt;.handleMessage&lt;/span&gt;(ActivityThread&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;1238&lt;/span&gt;)
+                at android&lt;span class=&quot;hljs-preprocessor&quot;&gt;.os&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.Handler&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.dispatchMessage&lt;/span&gt;(Handler&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;102&lt;/span&gt;)
+                at android&lt;span class=&quot;hljs-preprocessor&quot;&gt;.os&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.Looper&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.loop&lt;/span&gt;(Looper&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;136&lt;/span&gt;)
+                at android&lt;span class=&quot;hljs-preprocessor&quot;&gt;.app&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.ActivityThread&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.main&lt;/span&gt;(ActivityThread&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;5336&lt;/span&gt;)
+                at java&lt;span class=&quot;hljs-preprocessor&quot;&gt;.lang&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.reflect&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.Method&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.invokeNative&lt;/span&gt;(Native Method)
+                at java&lt;span class=&quot;hljs-preprocessor&quot;&gt;.lang&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.reflect&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.Method&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.invoke&lt;/span&gt;(Method&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;515&lt;/span&gt;)
+                at &lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.android&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.internal&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.os&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.ZygoteInit&lt;/span&gt;$MethodAndArgsCaller&lt;span class=&quot;hljs-preprocessor&quot;&gt;.run&lt;/span&gt;(ZygoteInit&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;871&lt;/span&gt;)
+                at &lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.android&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.internal&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.os&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.ZygoteInit&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.main&lt;/span&gt;(ZygoteInit&lt;span class=&quot;hljs-preprocessor&quot;&gt;.java&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;687&lt;/span&gt;)
+                at dalvik&lt;span class=&quot;hljs-preprocessor&quot;&gt;.system&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.NativeStart&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.main&lt;/span&gt;(Native Method)
+         Caused by: android&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.InflateException&lt;/span&gt;: Binary XML file line &lt;span class=&quot;hljs-preprocessor&quot;&gt;#5: Error inflating class com.facebook.drawee.view.SimpleDraweeView&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014171230196&quot; alt=&quot;报错&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;运行报错了！怎么回事呢？这里啊，是因为我们没有在应用调用 setContentView() 之前进行初始化Fresco造成的；解决办法：&lt;/p&gt;
+
+&lt;p&gt;修改我们的 &lt;strong&gt;MainActivity&lt;/strong&gt; 里代码：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs java&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-class&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;MainActivity&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;AppCompatActivity&lt;/span&gt; {&lt;/span&gt;
+
+    &lt;span class=&quot;hljs-annotation&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;hljs-keyword&quot;&gt;protected&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;onCreate&lt;/span&gt;(Bundle savedInstanceState) {
+        &lt;span class=&quot;hljs-keyword&quot;&gt;super&lt;/span&gt;.onCreate(savedInstanceState);
+        Fresco.initialize(&lt;span class=&quot;hljs-keyword&quot;&gt;this&lt;/span&gt;);
+        setContentView(R.layout.activity_main);
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014172430043&quot; alt=&quot;解决办法&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;再运行就没有错误发生了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;占位图placeholderimage&quot;&gt;占位图—placeholderImage：&lt;/h4&gt;
+
+&lt;p&gt;在此之前我们需要一张占位图 &lt;strong&gt;icon_placeholder.png&lt;/strong&gt; 大家右键另存为即可：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014174249858&quot; alt=&quot;icon_placeholder&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;修改我们的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_adv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;fitCenter&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014174136986&quot; alt=&quot;占位符&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 无需修改，运行一下：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014174714655&quot; alt=&quot;占位符&quot; title=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;正在加载图progressbarimage&quot;&gt;正在加载图—progressBarImage：&lt;/h4&gt;
+
+&lt;p&gt;在此之前我们需要一张正在加载图 &lt;strong&gt;icon_progress_bar.png&lt;/strong&gt; 大家右键另存为即可：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014191932701&quot; alt=&quot;正在加载图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;fitCenter&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014181109140&quot; alt=&quot;正在加载图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;更改我们的 &lt;strong&gt;MainActivity&lt;/strong&gt; 里代码：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs java&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-class&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;MainActivity&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;AppCompatActivity&lt;/span&gt; {&lt;/span&gt;
+
+    &lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; SimpleDraweeView simpleDraweeView;
+
+    &lt;span class=&quot;hljs-annotation&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;hljs-keyword&quot;&gt;protected&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;onCreate&lt;/span&gt;(Bundle savedInstanceState) {
+        &lt;span class=&quot;hljs-keyword&quot;&gt;super&lt;/span&gt;.onCreate(savedInstanceState);
+        Fresco.initialize(&lt;span class=&quot;hljs-keyword&quot;&gt;this&lt;/span&gt;);
+        setContentView(R.layout.activity_main);
+        initView();
+    }
+
+    &lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;initView&lt;/span&gt;() {
+        &lt;span class=&quot;hljs-comment&quot;&gt;//创建SimpleDraweeView对象&lt;/span&gt;
+        simpleDraweeView = (SimpleDraweeView) findViewById(R.id.main_sdv);
+        &lt;span class=&quot;hljs-comment&quot;&gt;//创建将要下载的图片的URI&lt;/span&gt;
+        Uri imageUri = Uri.parse(&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://my.csdn.net/uploads/avatar/4/E/8/1_y1scp.jpg&quot;&lt;/span&gt;);
+        &lt;span class=&quot;hljs-comment&quot;&gt;//开始下载&lt;/span&gt;
+        simpleDraweeView.setImageURI(imageUri);
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码分析：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014183202667&quot; alt=&quot;正在加载图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;运行效果图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151014191754520&quot; alt=&quot;正在加载图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;正在加载图本身是不可以转的，但是呢，加上了 &lt;code&gt;fresco:progressBarAutoRotateInterval=&quot;5000&quot;&lt;/code&gt; 属性，那么它就可以旋转了；可以看到，正在加载图一闪而过，这是因为我们加载的图片很小，网络也很好。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;失败图failureimage&quot;&gt;失败图—failureImage：&lt;/h4&gt;
+
+&lt;p&gt;在此之前我们需要一张正在加载图 &lt;strong&gt;icon_failure.png&lt;/strong&gt; 大家右键另存为即可：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015101244652&quot; alt=&quot;icon_failure&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;fitCenter&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:failureImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_failure&quot;&lt;/span&gt;
+        fresco:failureImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码分析：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015101828750&quot; alt=&quot;失败图代码分析&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;修改我们的 &lt;strong&gt;MainActivity&lt;/strong&gt; 里代码：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs java&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-class&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;MainActivity&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;AppCompatActivity&lt;/span&gt; {&lt;/span&gt;
+
+    &lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; SimpleDraweeView simpleDraweeView;
+
+    &lt;span class=&quot;hljs-annotation&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;hljs-keyword&quot;&gt;protected&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;onCreate&lt;/span&gt;(Bundle savedInstanceState) {
+        &lt;span class=&quot;hljs-keyword&quot;&gt;super&lt;/span&gt;.onCreate(savedInstanceState);
+        Fresco.initialize(&lt;span class=&quot;hljs-keyword&quot;&gt;this&lt;/span&gt;);
+        setContentView(R.layout.activity_main);
+        initView();
+    }
+
+    &lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;initView&lt;/span&gt;() {
+        &lt;span class=&quot;hljs-comment&quot;&gt;//创建SimpleDraweeView对象&lt;/span&gt;
+        simpleDraweeView = (SimpleDraweeView) findViewById(R.id.main_sdv);
+        &lt;span class=&quot;hljs-comment&quot;&gt;//创建将要下载的图片的URI&lt;/span&gt;
+        Uri imageUri = Uri.parse(&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://my.csdn.net/uploads/avatar_y1scp.jpg&quot;&lt;/span&gt;);
+        &lt;span class=&quot;hljs-comment&quot;&gt;//开始下载&lt;/span&gt;
+        simpleDraweeView.setImageURI(imageUri);
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015102621124&quot; alt=&quot;错误的网络图片地址&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;运行效果：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015103047747&quot; alt=&quot;failure&quot; title=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;重试图retryimage&quot;&gt;重试图—retryImage：&lt;/h4&gt;
+
+&lt;p&gt;在此之前我们需要一张正在加载图 &lt;strong&gt;icon_retry.png&lt;/strong&gt; 大家右键另存为即可：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015105821944&quot; alt=&quot;icon_retry&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;fitCenter&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:failureImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_failure&quot;&lt;/span&gt;
+        fresco:failureImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:retryImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_retry&quot;&lt;/span&gt;
+        fresco:retryImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerCrop&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码分析：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015110122695&quot; alt=&quot;重试图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;修改我们的 &lt;strong&gt;MainActivity&lt;/strong&gt; 里代码：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs java&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-class&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;MainActivity&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;AppCompatActivity&lt;/span&gt; {&lt;/span&gt;
+
+    &lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; SimpleDraweeView simpleDraweeView;
+
+    &lt;span class=&quot;hljs-annotation&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;hljs-keyword&quot;&gt;protected&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;onCreate&lt;/span&gt;(Bundle savedInstanceState) {
+        &lt;span class=&quot;hljs-keyword&quot;&gt;super&lt;/span&gt;.onCreate(savedInstanceState);
+        Fresco.initialize(&lt;span class=&quot;hljs-keyword&quot;&gt;this&lt;/span&gt;);
+        setContentView(R.layout.activity_main);
+        initView();
+    }
+
+    &lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;initView&lt;/span&gt;() {
+        &lt;span class=&quot;hljs-comment&quot;&gt;//创建SimpleDraweeView对象&lt;/span&gt;
+        simpleDraweeView = (SimpleDraweeView) findViewById(R.id.main_sdv);
+        &lt;span class=&quot;hljs-comment&quot;&gt;//创建将要下载的图片的URI&lt;/span&gt;
+        Uri imageUri = Uri.parse(&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://my.csdn.net/uploads/avatar_y1scp.jpg&quot;&lt;/span&gt;);
+        &lt;span class=&quot;hljs-comment&quot;&gt;//开始下载&lt;/span&gt;
+        simpleDraweeView.setImageURI(imageUri);
+
+        &lt;span class=&quot;hljs-comment&quot;&gt;//创建DraweeController&lt;/span&gt;
+        DraweeController controller = Fresco.newDraweeControllerBuilder()
+                &lt;span class=&quot;hljs-comment&quot;&gt;//加载的图片URI地址&lt;/span&gt;
+                .setUri(imageUri)
+                &lt;span class=&quot;hljs-comment&quot;&gt;//设置点击重试是否开启&lt;/span&gt;
+                .setTapToRetryEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;)
+                &lt;span class=&quot;hljs-comment&quot;&gt;//设置旧的Controller&lt;/span&gt;
+                .setOldController(simpleDraweeView.getController())
+                &lt;span class=&quot;hljs-comment&quot;&gt;//构建&lt;/span&gt;
+                .build();
+
+        &lt;span class=&quot;hljs-comment&quot;&gt;//设置DraweeController&lt;/span&gt;
+        simpleDraweeView.setController(controller);
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015112001177&quot; alt=&quot;重试图片&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;运行效果：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015112222517&quot; alt=&quot;重试图效果&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;注意：&lt;/p&gt;
+
+&lt;p&gt;重复加载4次还是没有加载出来的时候才会显示 &lt;strong&gt;failureImage(失败图)&lt;/strong&gt; 的图片&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;淡入淡出动画fadeduration&quot;&gt;淡入淡出动画—fadeDuration：&lt;/h4&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;fitCenter&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:failureImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_failure&quot;&lt;/span&gt;
+        fresco:failureImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:retryImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_retry&quot;&lt;/span&gt;
+        fresco:retryImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerCrop&quot;&lt;/span&gt;
+        fresco:fadeDuration=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015113152652&quot; alt=&quot;淡入淡出动画&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 中的代码无需修改。&lt;/p&gt;
+
+&lt;p&gt;运行效果：&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;重试+进度图+失败图&lt;/th&gt;
+  &lt;th&gt;进度图+正确图&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015120140718&quot; alt=&quot;淡入淡出动画&quot; title=&quot;&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015120721864&quot; alt=&quot;正确图&quot; title=&quot;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;背景图backgroundimage&quot;&gt;背景图—backgroundImage：&lt;/h4&gt;
+
+&lt;p&gt;这里呢，我们的背景图采用的是一个系统所提供的颜色中的一种。&lt;/p&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:fadeDuration=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:backgroundImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/holo_orange_light&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015140145519&quot; alt=&quot;背景图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 中的代码无需修改，运行效果：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015140539080&quot; alt=&quot;背景效果&quot; title=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;叠加图overlayimage&quot;&gt;叠加图—overlayImage：&lt;/h4&gt;
+
+&lt;p&gt;这里呢，我们的背景图采用的是一个系统所提供的颜色中的一种。&lt;/p&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;fitCenter&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:failureImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_failure&quot;&lt;/span&gt;
+        fresco:failureImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:retryImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_retry&quot;&lt;/span&gt;
+        fresco:retryImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerCrop&quot;&lt;/span&gt;
+        fresco:fadeDuration=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:backgroundImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/holo_orange_light&quot;&lt;/span&gt;
+        fresco:pressedStateOverlayImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/holo_green_dark&quot;&lt;/span&gt;
+        fresco:overlayImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/black&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015144954916&quot; alt=&quot;叠加图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 中的代码无需修改。&lt;/p&gt;
+
+&lt;p&gt;运行效果：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015145345012&quot; alt=&quot;叠加图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;从运行效果来看，叠加图在最上面，覆盖了下面的图。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;圆形图roundascircle&quot;&gt;圆形图—roundAsCircle：&lt;/h4&gt;
+
+&lt;p&gt;一行代码搞定圆形图：设置roundAsCircle为true；&lt;/p&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;fitCenter&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:failureImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_failure&quot;&lt;/span&gt;
+        fresco:failureImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:retryImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_retry&quot;&lt;/span&gt;
+        fresco:retryImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerCrop&quot;&lt;/span&gt;
+        fresco:fadeDuration=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:backgroundImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/holo_orange_light&quot;&lt;/span&gt;
+        fresco:roundAsCircle=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015150259016&quot; alt=&quot;圆形图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 中的代码无需修改。&lt;/p&gt;
+
+&lt;p&gt;运行效果：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015150548029&quot; alt=&quot;circle&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;可以看到，从图片开始加载一直到图片下载完毕，整个图像都是圆形的。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;圆角图roundedcornerradius&quot;&gt;圆角图—roundedCornerRadius：&lt;/h4&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;fitCenter&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:failureImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_failure&quot;&lt;/span&gt;
+        fresco:failureImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerInside&quot;&lt;/span&gt;
+        fresco:retryImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_retry&quot;&lt;/span&gt;
+        fresco:retryImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;centerCrop&quot;&lt;/span&gt;
+        fresco:fadeDuration=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:backgroundImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/holo_orange_light&quot;&lt;/span&gt;
+        fresco:roundedCornerRadius=&lt;span class=&quot;hljs-string&quot;&gt;&quot;30dp&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015152240884&quot; alt=&quot;圆角&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 中的代码无需修改。&lt;/p&gt;
+
+&lt;p&gt;运行效果：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015152547725&quot; alt=&quot;圆角运行图&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;可以看到，从图片开始加载一直到图片下载完毕，整个图像都是圆角的。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th align=&quot;right&quot;&gt;圆角属性&lt;/th&gt;
+  &lt;th&gt;圆角属性&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+  &lt;td align=&quot;right&quot;&gt;左上角是否为圆角&lt;code&gt;fresco:roundTopLeft=&quot;false&quot;&lt;/code&gt;&lt;/td&gt;
+  &lt;td&gt;右上角是否为圆角&lt;code&gt;fresco:roundTopRight=&quot;false&quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align=&quot;right&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015154403453&quot; alt=&quot;topLeft&quot; title=&quot;&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015154233987&quot; alt=&quot;topRight&quot; title=&quot;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align=&quot;right&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015154042619&quot; alt=&quot;bottomLeft&quot; title=&quot;&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015154614844&quot; alt=&quot;bottomRight&quot; title=&quot;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align=&quot;right&quot;&gt;左下角是否为圆角&lt;code&gt;fresco:roundBottomLeft=&quot;false&quot;&lt;/code&gt;&lt;/td&gt;
+  &lt;td&gt;右下角是否为圆角&lt;code&gt;fresco:roundBottomRight=&quot;false&quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+
+&lt;p&gt;注意：&lt;/p&gt;
+
+&lt;p&gt;当我们同时设置图像显示为圆形图像和圆角图像时，只会显示为圆形图像。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015160337036&quot; alt=&quot;同时设置圆形圆角&quot; title=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;圆形圆角边框宽度及颜色roundingborder&quot;&gt;圆形圆角边框宽度及颜色—roundingBorder：&lt;/h4&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:failureImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_failure&quot;&lt;/span&gt;
+        fresco:failureImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:retryImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_retry&quot;&lt;/span&gt;
+        fresco:retryImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:fadeDuration=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:backgroundImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/holo_orange_light&quot;&lt;/span&gt;
+        fresco:roundAsCircle=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:roundedCornerRadius=&lt;span class=&quot;hljs-string&quot;&gt;&quot;30dp&quot;&lt;/span&gt;
+        fresco:roundTopLeft=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:roundTopRight=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:roundBottomLeft=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:roundBottomRight=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:roundingBorderWidth=&lt;span class=&quot;hljs-string&quot;&gt;&quot;10dp&quot;&lt;/span&gt;
+        fresco:roundingBorderColor=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/black&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015163826688&quot; alt=&quot;圆形圆角边框&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 中的代码无需修改。&lt;/p&gt;
+
+&lt;p&gt;运行效果(左边显示的是带边框的圆形图像，右边显示的是带边框的圆角图像)：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015164047548&quot; alt=&quot;圆形边框&quot; title=&quot;&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015164235739&quot; alt=&quot;圆角边框&quot; title=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;圆形或圆角图像底下的叠加颜色roundwithoverlaycolor&quot;&gt;圆形或圆角图像底下的叠加颜色—roundWithOverlayColor：&lt;/h4&gt;
+
+&lt;p&gt;修改我们刚刚书写的 &lt;strong&gt;activity_main.xml&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&lt;code class=&quot; hljs avrasm&quot;&gt;&amp;lt;RelativeLayout xmlns:android=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
+    xmlns:fresco=&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://schemas.android.com/apk/res-auto&quot;&lt;/span&gt;
+    android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;
+    android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;match_parent&quot;&lt;/span&gt;&amp;gt;
+
+    &amp;lt;&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;
+        android:id=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@+id/main_sdv&quot;&lt;/span&gt;
+        android:layout_width=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_height=&lt;span class=&quot;hljs-string&quot;&gt;&quot;100dp&quot;&lt;/span&gt;
+        android:layout_centerInParent=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        fresco:actualImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:placeholderImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_placeholder&quot;&lt;/span&gt;
+        fresco:placeholderImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:progressBarImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_progress_bar&quot;&lt;/span&gt;
+        fresco:progressBarImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:progressBarAutoRotateInterval=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:failureImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_failure&quot;&lt;/span&gt;
+        fresco:failureImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:retryImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@mipmap/icon_retry&quot;&lt;/span&gt;
+        fresco:retryImageScaleType=&lt;span class=&quot;hljs-string&quot;&gt;&quot;focusCrop&quot;&lt;/span&gt;
+        fresco:fadeDuration=&lt;span class=&quot;hljs-string&quot;&gt;&quot;5000&quot;&lt;/span&gt;
+        fresco:backgroundImage=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/holo_orange_light&quot;&lt;/span&gt;
+        fresco:roundWithOverlayColor=&lt;span class=&quot;hljs-string&quot;&gt;&quot;@android:color/darker_gray&quot;&lt;/span&gt;
+        fresco:roundAsCircle=&lt;span class=&quot;hljs-string&quot;&gt;&quot;true&quot;&lt;/span&gt;
+        &amp;gt;&amp;lt;/&lt;span class=&quot;hljs-keyword&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.facebook&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.drawee&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.view&lt;/span&gt;&lt;span class=&quot;hljs-preprocessor&quot;&gt;.SimpleDraweeView&lt;/span&gt;&amp;gt;
+
+&amp;lt;/RelativeLayout&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;代码说明：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015171058014&quot; alt=&quot;底下的颜色&quot; title=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MainActivity&lt;/strong&gt; 中的代码无需修改。&lt;/p&gt;
+
+&lt;p&gt;运行效果(左边为圆形效果，右边为圆角效果)：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015171501178&quot; alt=&quot;圆形效果&quot; title=&quot;&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151015171532536&quot; alt=&quot;圆角效果&quot; title=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;缩放类型scaletype&quot;&gt;缩放类型—ScaleType：&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;类型&lt;/th&gt;
+  &lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+  &lt;td&gt;center&lt;/td&gt;
+  &lt;td&gt;居中，无缩放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;centerCrop&lt;/td&gt;
+  &lt;td&gt;保持宽高比缩小或放大，使得两边都大于或等于显示边界。居中显示。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;focusCrop&lt;/td&gt;
+  &lt;td&gt;同centerCrop, 但居中点不是中点，而是指定的某个点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;centerInside&lt;/td&gt;
+  &lt;td&gt;使两边都在显示边界内，居中显示。如果图尺寸大于显示边界，则保持长宽比缩小图片。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;fitCenter&lt;/td&gt;
+  &lt;td&gt;保持宽高比，缩小或者放大，使得图片完全显示在显示边界内。居中显示&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;fitStart&lt;/td&gt;
+  &lt;td&gt;同上。但不居中，和显示边界左上对齐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;fitEnd&lt;/td&gt;
+  &lt;td&gt;同fitCenter， 但不居中，和显示边界右下对齐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;fitXY&lt;/td&gt;
+  &lt;td&gt;不保存宽高比，填充满显示边界&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;none&lt;/td&gt;
+  &lt;td&gt;如要使用tile mode显示, 需要设置为none&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+
+&lt;p&gt;推荐使用：focusCrop 类型&lt;/p&gt;
+
+&lt;p&gt;Fresco中文说明对这一点也有详情的说明： &lt;a href=&quot;http://www.fresco-cn.org/docs/scaling.html#_&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;缩放&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;总结&quot;&gt;总结：&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;XML属性&lt;/th&gt;
+  &lt;th&gt;意义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+  &lt;td&gt;fadeDuration&lt;/td&gt;
+  &lt;td&gt;淡入淡出动画持续时间(单位：毫秒ms)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;actualImageScaleType&lt;/td&gt;
+  &lt;td&gt;实际图像的缩放类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;placeholderImage&lt;/td&gt;
+  &lt;td&gt;占位图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;placeholderImageScaleType&lt;/td&gt;
+  &lt;td&gt;占位图的缩放类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;progressBarImage&lt;/td&gt;
+  &lt;td&gt;进度图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;progressBarImageScaleType&lt;/td&gt;
+  &lt;td&gt;进度图的缩放类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;progressBarAutoRotateInterval&lt;/td&gt;
+  &lt;td&gt;进度图自动旋转间隔时间(单位：毫秒ms)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;failureImage&lt;/td&gt;
+  &lt;td&gt;失败图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;failureImageScaleType&lt;/td&gt;
+  &lt;td&gt;失败图的缩放类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;retryImage&lt;/td&gt;
+  &lt;td&gt;重试图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;retryImageScaleType&lt;/td&gt;
+  &lt;td&gt;重试图的缩放类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;backgroundImage&lt;/td&gt;
+  &lt;td&gt;背景图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;overlayImage&lt;/td&gt;
+  &lt;td&gt;叠加图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;pressedStateOverlayImage&lt;/td&gt;
+  &lt;td&gt;按压状态下所显示的叠加图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundAsCircle&lt;/td&gt;
+  &lt;td&gt;设置为圆形图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundedCornerRadius&lt;/td&gt;
+  &lt;td&gt;圆角半径&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundTopLeft&lt;/td&gt;
+  &lt;td&gt;左上角是否为圆角&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundTopRight&lt;/td&gt;
+  &lt;td&gt;右上角是否为圆角&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundBottomLeft&lt;/td&gt;
+  &lt;td&gt;左下角是否为圆角&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundBottomRight&lt;/td&gt;
+  &lt;td&gt;右下角是否为圆角&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundingBorderWidth&lt;/td&gt;
+  &lt;td&gt;圆形或者圆角图边框的宽度&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundingBorderColor&lt;/td&gt;
+  &lt;td&gt;圆形或者圆角图边框的颜色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;roundWithOverlayColor&lt;/td&gt;
+  &lt;td&gt;圆形或者圆角图底下的叠加颜色(只能设置颜色)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;viewAspectRatio&lt;/td&gt;
+  &lt;td&gt;控件纵横比&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;github&quot;&gt;GitHub：&lt;/h4&gt;
+
+&lt;p&gt;本教程最终项目GitHub地址：&lt;a href=&quot;https://github.com/scp504677840/Fresco&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/scp504677840/Fresco&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+        &lt;script type=&quot;text/javascript&quot;&gt;
+            $(function () {
+                $(&#39;pre.prettyprint code&#39;).each(function () {
+                    var lines = $(this).text().split(&#39;\n&#39;).length;
+                    var $numbering = $(&#39;&lt;ul/&gt;&#39;).addClass(&#39;pre-numbering&#39;).hide();
+                    $(this).addClass(&#39;has-numbering&#39;).parent().append($numbering);
+                    for (i = 1; i &lt;= lines; i++) {
+                        $numbering.append($(&#39;&lt;li/&gt;&#39;).text(i));
+                    };
+                    $numbering.fadeIn(1700);
+                });
+            });
+        &lt;/script&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;!-- Baidu Button BEGIN --&gt;
+&lt;div class=&quot;bdsharebuttonbox tracking-ad&quot; style=&quot;float: right;&quot; data-mod=&quot;popu_172&quot;&gt;&lt;br&gt;&lt;a href=&quot;#&quot; class=&quot;bds_more&quot; data-cmd=&quot;more&quot; style=&quot;background-position:0 0 !important; background-image: url(http://bdimg.share.baidu.com/static/api/img/share/icons_0_16.png?v=d754dcc0.png) !important&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#&quot; class=&quot;bds_qzone&quot; data-cmd=&quot;qzone&quot; title=&quot;分享到QQ空间&quot; style=&quot;background-position:0 -52px !important&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#&quot; class=&quot;bds_tsina&quot; data-cmd=&quot;tsina&quot; title=&quot;分享到新浪微博&quot; style=&quot;background-position:0 -104px !important&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#&quot; class=&quot;bds_tqq&quot; data-cmd=&quot;tqq&quot; title=&quot;分享到腾讯微博&quot; style=&quot;background-position:0 -260px !important&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#&quot; class=&quot;bds_renren&quot; data-cmd=&quot;renren&quot; title=&quot;分享到人人网&quot; style=&quot;background-position:0 -208px !important&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#&quot; class=&quot;bds_weixin&quot; data-cmd=&quot;weixin&quot; title=&quot;分享到微信&quot; style=&quot;background-position:0 -1612px !important&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;script&gt;window._bd_share_config = { “common”: { “bdSnsKey”: {}, “bdText”: “”, “bdMini”: “1”, “bdMiniList”: false, “bdPic”: “”, “bdStyle”: “0”, “bdSize”: “16” }, “share”: {} }; with (document) 0[(getElementsByTagName(‘head’)[0] || body).appendChild(createElement(‘script’)).src = ‘&lt;a href=&quot;http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=&quot;&gt;http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=&lt;/a&gt;‘ + ~(-new Date() / 36e5)];&lt;/script&gt;&lt;br&gt;&lt;!-- Baidu Button END --&gt;&lt;br&gt;&lt;br&gt;   &lt;link rel=&quot;stylesheet&quot; href=&quot;http://static.blog.csdn.net/css/blog_detail.css&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;!--172.16.140.12--&gt;&lt;br&gt;&lt;br&gt;&lt;!-- Baidu Button BEGIN --&gt;&lt;br&gt;&lt;script type=&quot;text/javascript&quot; id=&quot;bdshare_js&quot; data=&quot;type=tools&amp;amp;uid=1536434&quot;&gt;&lt;/script&gt;&lt;br&gt;&lt;script type=&quot;text/javascript&quot; id=&quot;bdshell_js&quot;&gt;&lt;/script&gt;&lt;br&gt;&lt;script type=&quot;text/javascript&quot;&gt;&lt;br&gt;    document.getElementById(“bdshell_js”).src = “&lt;a href=&quot;http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=&quot;&gt;http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=&lt;/a&gt;“ + Math.ceil(new Date()/3600000)&lt;br&gt;&lt;/script&gt;&lt;br&gt;&lt;!-- Baidu Button END --&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;        &lt;div id=&quot;digg&quot; articleid=&quot;49245535&quot;&gt;&lt;br&gt;            &lt;dl id=&quot;btnDigg&quot; class=&quot;digg digg_disable&quot;&gt;&lt;br&gt;&lt;br&gt;                 &lt;dt&gt;顶&lt;/dt&gt;&lt;br&gt;                &lt;dd&gt;6&lt;/dd&gt;&lt;br&gt;            &lt;/dl&gt;&lt;br&gt;            &lt;dl id=&quot;btnBury&quot; class=&quot;digg digg_disable&quot;&gt;&lt;br&gt;&lt;br&gt;                  &lt;dt&gt;踩&lt;/dt&gt;&lt;br&gt;                &lt;dd&gt;0&lt;/dd&gt;&lt;br&gt;            &lt;/dl&gt;&lt;br&gt;        &lt;/div&gt;
+
+   &lt;ul class=&quot;article_next_prev&quot;&gt;&lt;br&gt;                &lt;li class=&quot;prev_article&quot;&gt;&lt;span onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_shangyipian&#39;]);location.href=&#39;/y1scp/article/details/49095729&#39;;&quot;&gt;上一篇&lt;/span&gt;&lt;a href=&quot;/y1scp/article/details/49095729&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_shangyipian&#39;])&quot;&gt;Android中级篇之百度地图SDK v3.5.0-一步一步带你仿各大主流APP地图定位移动选址功能&lt;/a&gt;&lt;/li&gt;&lt;br&gt;                &lt;li class=&quot;next_article&quot;&gt;&lt;span onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_xiayipian&#39;]);location.href=&#39;/y1scp/article/details/49593319&#39;;&quot;&gt;下一篇&lt;/span&gt;&lt;a href=&quot;/y1scp/article/details/49593319&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_xiayipian&#39;])&quot;&gt;Android图片加载神器之Fresco-更灵活的设置加载特效[Java代码实现XML效果]&lt;/a&gt;&lt;/li&gt;&lt;br&gt;    &lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div style=&amp;quot;clear:both; height:10px;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+
+    &amp;lt;div class=&amp;quot;similar_article&amp;quot;  style=&amp;quot;display:none&amp;quot;&amp;gt;
+            &amp;lt;h4&amp;gt;我的同类文章&amp;lt;/h4&amp;gt;
+            &amp;lt;div class=&amp;quot;similar_c&amp;quot;style=&amp;quot;margin:20px 0px 0px 0px&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;similar_c_t&amp;quot;&amp;gt;
+                            &amp;lt;label class=&amp;quot;similar_cur&amp;quot;&amp;gt;
+                                &amp;lt;span  style=&amp;quot;cursor:pointer&amp;quot;  onclick=&amp;quot;GetCategoryArticles(&amp;apos;3142345&amp;apos;,&amp;apos;y1scp&amp;apos;,&amp;apos;foot&amp;apos;,&amp;apos;49245535&amp;apos;);&amp;quot;&amp;gt;Android中级篇&amp;lt;em&amp;gt;（12）&amp;lt;/em&amp;gt;&amp;lt;/span&amp;gt;
+                            &amp;lt;/label&amp;gt;
+                &amp;lt;/div&amp;gt;
+
+                &amp;lt;div class=&amp;quot;similar_wrap tracking-ad&amp;quot; data-mod=&amp;quot;popu_141&amp;quot;  style=&amp;quot;max-height:195px;&amp;quot;&amp;gt;
+                    &amp;lt;a href=&amp;quot;http://blog.csdn.net&amp;quot; style=&amp;quot;display:none&amp;quot;&amp;gt;http://blog.csdn.net&amp;lt;/a&amp;gt;
+                    &amp;lt;ul class=&amp;quot;similar_list fl&amp;quot;&amp;gt;                          
+                    &amp;lt;/ul&amp;gt;
+
+                    &amp;lt;ul class=&amp;quot;similar_list fr&amp;quot;&amp;gt;                           
+                    &amp;lt;/ul&amp;gt;
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;    
+&amp;lt;script  type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    $(function () {
+        GetCategoryArticles(&amp;apos;3142345&amp;apos;, &amp;apos;y1scp&amp;apos;,&amp;apos;foot&amp;apos;,&amp;apos;49245535&amp;apos;);
+    });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div id=&quot;suggest&quot;&gt;&lt;/div&gt;&lt;br&gt;         &lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot;&gt;&lt;br&gt;             $(function(){&lt;br&gt;                 $.get(“/y1scp/svc/GetSuggestContent/49245535”,function(data){&lt;br&gt;                     $(“#suggest”).html(data);&lt;br&gt;                 });&lt;br&gt;             });&lt;br&gt;         &lt;/script&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;style&gt;&lt;br&gt;.blog-ass-articl dd {&lt;br&gt;color: #369;&lt;br&gt;width: 99%; /&lt;em&gt;修改行&lt;/em&gt;/&lt;br&gt;float: left;&lt;br&gt;overflow: hidden;&lt;br&gt;font: normal normal 12px/23px “SimSun”;&lt;br&gt;height: 23px;&lt;br&gt;margin: 0;&lt;br&gt;padding: 0 0 0 10px;&lt;br&gt;margin-right: 30px;&lt;br&gt;background: url(&lt;a href=&quot;http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif&quot;&gt;http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif&lt;/a&gt;) no-repeat 0 10px;&lt;br&gt;}&lt;br&gt;&lt;/style&gt;&lt;br&gt;&lt;br&gt;&lt;dl class=&quot;blog-ass-articl&quot; id=&quot;res-relatived&quot;&gt;&lt;br&gt;    &lt;div class=&quot;embody embody_b&quot; id=&quot;libkeyparent&quot; style=&quot;display:none&quot;&gt;&lt;br&gt;            &lt;span class=&quot;embody_t&quot;&gt;更多资料请参考：&lt;/span&gt;&lt;br&gt;            &lt;div class=&quot;embody_c&quot; id=&quot;libkey&quot;&gt;&lt;/div&gt;&lt;br&gt;    &lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code&gt; &amp;lt;dt&amp;gt;&amp;lt;span&amp;gt;猜你在找&amp;lt;/span&amp;gt;&amp;lt;/dt&amp;gt;    
+
+
+
+
+
+&amp;lt;div id=&amp;quot;adCollege&amp;quot; style=&amp;quot;width: 42%;float: left;&amp;quot;&amp;gt; 
+    &amp;lt;script src=&amp;quot;http://csdnimg.cn/jobreco/job_reco.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 
+    &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+        csdn.position.showEdu({
+            sourceType: &amp;quot;blog&amp;quot;,
+            searchType: &amp;quot;detail&amp;quot;,
+            searchKey: &amp;quot;49245535&amp;quot;,
+            username: &amp;quot;&amp;quot;,
+            recordcount: &amp;quot;5&amp;quot;,
+            containerId: &amp;quot;adCollege&amp;quot; //容器DIV的id。 
+        });
+    &amp;lt;/script&amp;gt; 
+&amp;lt;/div&amp;gt;  
+
+
+ &amp;lt;div id=&amp;quot;res&amp;quot;  data-mod=&amp;quot;popu_36&amp;quot;  class=&amp;quot;tracking-ad&amp;quot; style=&amp;quot;width: 42%;float: left;margin-right: 30px;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&lt;/dl&gt;&lt;p&gt;&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    $(function () {
+        setTimeout(function () {
+            var searchtitletags = &#39;Android图片加载神器之Fresco-加载图片基础[详细图解Fresco的使用]&#39; + &#39;,&#39; + $(&quot;#tags&quot;).html();
+            searchService({
+                index: &#39;blog&#39;,
+                query: searchtitletags,
+                from: 5,
+                size: 5,
+                appendTo: &#39;#res&#39;,
+                url: &#39;recommend&#39;,
+                his: 2,
+                client: &quot;blog_cf_enhance&quot;,
+                tmpl: &#39;&lt;dd style=&quot;background:url(http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif) no-repeat 0 10px;&quot;&gt;&lt;a href=&quot;#{ url }&quot; title=&quot;#{ title }&quot; strategy=&quot;#{ strategy }&quot;&gt;#{ title }&lt;/a&gt;&lt;/dd&gt;&#39;
+            });
+        }, 500);
+    });    
+
+ &lt;/script&gt;  
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;ad_cen&amp;quot;&amp;gt;        
+&lt;/code&gt;&lt;/pre&gt;&lt;!--AdForward Begin:--&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://csdnim.qtmojo.com/main/s?user=csdn|blog|banner2&amp;db=csdnim&amp;border=0&amp;local=yes&amp;js=ie&quot; charset=&quot;gbk&quot;&gt;&lt;/script&gt;
+&lt;!--AdForward End--&gt;      
+
+&lt;div class=&quot;comment_class&quot;&gt;
+    &lt;div id=&quot;comment_title&quot; class=&quot;panel_head&quot;&gt;
+        &lt;span class=&quot;see_comment&quot;&gt;查看评论&lt;/span&gt;&lt;a name=&quot;comments&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;div id=&quot;comment_list&quot;&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;comment_bar&quot;&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;comment_form&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;announce&quot;&gt;
+        * 以上用户言论只代表其个人观点，不代表CSDN网站的观点或立场&lt;a name=&quot;reply&quot;&gt;&lt;/a&gt;&lt;a name=&quot;quote&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var fileName = &#39;49245535&#39;;
+    var commentscount = 15;
+    var islock = false
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://static.blog.csdn.net/scripts/comment.js&quot;&gt;&lt;/script&gt;
+    &lt;div id=&quot;ad_bot&quot;&gt;
+    &lt;/div&gt;
+&lt;div id=&quot;report_dialog&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;d-top&quot; style=&quot;bottom:60px;&quot;&gt;
+        &lt;a id=&quot;quick-reply&quot; class=&quot;btn btn-top q-reply&quot; title=&quot;快速回复&quot; style=&quot;display:none;&quot;&gt;
+            &lt;img src=&quot;http://static.blog.csdn.net/images/blog-icon-reply.png&quot; alt=&quot;快速回复&quot;&gt;
+        &lt;/a&gt;    
+
+    &lt;a id=&quot;d-top-a&quot; class=&quot;btn btn-top backtop&quot; style=&quot;display: none;&quot; title=&quot;返回顶部&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_huidaodingbu&#39;])&quot;&gt;         
+         &lt;img src=&quot;http://static.blog.csdn.net/images/top.png&quot; alt=&quot;TOP&quot;&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    $(function ()
+    {
+        $(&quot;#ad_frm_0&quot;).height(&quot;90px&quot;);
+
+        setTimeout(function(){
+            $(&quot;#ad_frm_2&quot;).height(&quot;200px&quot;);
+        },1000);    
+    });
+
+&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+    .tag_list
+    {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #D7CBC1;
+        color: #000000;
+        font-size: 12px;
+        line-height: 20px;
+        list-style: none outside none;
+        margin: 10px 2% 0 1%;
+        padding: 1px;
+    }
+    .tag_list h5
+    {
+        background: none repeat scroll 0 0 #E0DBD3;
+        color: #47381C;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 5px;
+        margin: 0;
+    }
+    .tag_list h5 a
+    {
+        color: #47381C;
+    }
+    .classify
+    {
+        margin: 10px 0;
+        padding: 4px 12px 8px;
+    }
+    .classify a
+    {
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+&lt;/style&gt;
+
+
+&lt;div class=&quot;tag_list&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+  &lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot;&gt;     
+      $(function(){
+              setTimeout(function(){
+                  $.get(&quot;/y1scp/svc/GetTagContent&quot;,function(data){
+                      $(&quot;.tag_list&quot;).html(data).show();
+                  });     
+              });
+          },500);                       
+ &lt;/script&gt; 
+
+
+&lt;div id=&quot;pop_win&quot; style=&quot;display:none ;position: absolute; z-index: 10000; border: 1px solid rgb(220, 220, 220); top: 222.5px; left: 630px; opacity: 1; background: none 0px 0px repeat scroll rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div id=&quot;popup_mask&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;style&gt;&lt;br&gt;    #popup_mask&lt;br&gt;    {&lt;br&gt;        position: absolute;&lt;br&gt;        width: 100%;&lt;br&gt;        height: 100%;&lt;br&gt;        background: #000;&lt;br&gt;        z-index: 9999;&lt;br&gt;        left: 0px;&lt;br&gt;        top: 0px;&lt;br&gt;        opacity: 0.3;&lt;br&gt;        filter: alpha(opacity=30);&lt;br&gt;        display: none;&lt;br&gt;    }&lt;br&gt;&lt;br&gt;&lt;/style&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;script type=&quot;text/javascript&quot;&gt;&lt;br&gt;    $(function(){&lt;br&gt;        setTimeout(function(){&lt;br&gt;            $(“.comment_body:contains(‘回复’)”).each(function(index,item){&lt;br&gt;                var u=$(this).text().split(‘：’)[0].toString().replace(“回复”,””)&lt;br&gt;                var thisComment=$(this);&lt;br&gt;                if(u)&lt;br&gt;                {&lt;br&gt;                    $.getJSON(“&lt;a href=&quot;https://passport.csdn.net/get/nick?callback=?&quot;&gt;https://passport.csdn.net/get/nick?callback=?&lt;/a&gt;“, {users: u}, function(a) {&lt;br&gt;                        if(a!=null&amp;amp;&amp;amp;a.data!=null&amp;amp;&amp;amp;a.data.length&amp;gt;0)&lt;br&gt;                        {&lt;br&gt;                            nick=a.data[0].n;&lt;br&gt;                            if(u!=nick)&lt;br&gt;                            {&lt;br&gt;                                thisComment.text(thisComment.text().replace(u,nick));&lt;br&gt;                            }&lt;br&gt;                        }&lt;br&gt;                    });&lt;br&gt;                }&lt;br&gt;            });&lt;br&gt;        },200);&lt;br&gt;&lt;br&gt;        setTimeout(function(){&lt;br&gt;            $(“a img[src=’&lt;a href=&quot;http://js.tongji.linezing.com/stats.gif&amp;#39;]&amp;quot;).parent().css({&amp;quot;position&amp;quot;:&amp;quot;absolute&amp;quot;,&amp;quot;left&amp;quot;:&amp;quot;50%&amp;quot;}&quot;&gt;http://js.tongji.linezing.com/stats.gif&amp;#39;]&amp;quot;).parent().css({&amp;quot;position&amp;quot;:&amp;quot;absolute&amp;quot;,&amp;quot;left&amp;quot;:&amp;quot;50%&amp;quot;}&lt;/a&gt;);&lt;br&gt;        },300);&lt;br&gt;    });&lt;br&gt;&lt;br&gt;    function loginbox(){&lt;br&gt;        var $logpop=$(“#pop_win”);&lt;br&gt;        $logpop.html(‘&lt;iframe src=&quot;https://passport.csdn.net/account/loginbox?service=http://static.blog.csdn.net/callback.htm&quot; frameborder=&quot;0&quot; height=&quot;600&quot; width=&quot;400&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;‘);&lt;br&gt;&lt;br&gt;        $(‘#popup_mask’).css({&lt;br&gt;            opacity: 0.5,&lt;br&gt;            width: $( document ).width() + ‘px’,&lt;br&gt;            height:  $( document ).height() + ‘px’&lt;br&gt;        });&lt;br&gt;        $(‘#popup_mask’).css(“display”,”block”);&lt;br&gt;&lt;br&gt;        $logpop.css( {&lt;br&gt;            top: ($( window ).height() - $logpop.height())/ 2  + $( window&lt;br&gt;       ).scrollTop() + ‘px’,&lt;br&gt;            left:($( window ).width() - $logpop.width())/ 2&lt;br&gt;        } );&lt;br&gt;&lt;br&gt;        setTimeout( function () {&lt;br&gt;            $logpop.show();&lt;br&gt;            $logpop.css( {&lt;br&gt;                opacity: 1&lt;br&gt;            } );&lt;br&gt;        }, 200 );&lt;br&gt;&lt;br&gt;        $(‘#popup_mask’).unbind(“click”);&lt;br&gt;        $(‘#popup_mask’).bind(“click”, function(){&lt;br&gt;            $(‘#popup_mask’).hide();&lt;br&gt;            var $clopop = $(“#pop_win”);&lt;br&gt;            $(“#common_ask_div_sc”).css(“display”,”none”);&lt;br&gt;            $clopop.css( {&lt;br&gt;                opacity: 0&lt;br&gt;            } );&lt;br&gt;            setTimeout( function () {&lt;br&gt;                $clopop.hide();&lt;br&gt;            }, 350 );&lt;br&gt;            return false;&lt;br&gt;        });&lt;br&gt;    }&lt;br&gt;&lt;br&gt;&lt;/script&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;                        &lt;div class=&quot;clear&quot;&gt;&lt;br&gt;                        &lt;/div&gt;&lt;br&gt;                                       
+
+&lt;pre&gt;&lt;code&gt;        &amp;lt;/div&amp;gt;
+
+       &amp;lt;div id=&amp;quot;side&amp;quot;&amp;gt;
+&amp;lt;div class=&amp;quot;side&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;div id=&quot;panel_Profile&quot; class=&quot;panel&quot;&gt;&lt;br&gt;&lt;ul class=&quot;panel_head&quot;&gt;&lt;span&gt;个人资料&lt;/span&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul class=&quot;panel_body profile&quot;&gt;&lt;br&gt;&lt;div id=&quot;blog_userface&quot;&gt;&lt;br&gt;    &lt;a href=&quot;http://my.csdn.net/y1scp&quot; target=&quot;_blank&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://avatar.csdn.net/4/E/8/1_y1scp.jpg&quot; title=&quot;访问我的空间&quot; style=&quot;max-width:90%&quot;&gt;&lt;br&gt;    &lt;/a&gt;&lt;br&gt;    &lt;br&gt;&lt;br&gt;    &lt;span&gt;&lt;a href=&quot;http://my.csdn.net/y1scp&quot; class=&quot;user_name&quot; target=&quot;_blank&quot;&gt;y1scp&lt;/a&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div class=&quot;interact&quot;&gt;&lt;br&gt;&lt;br&gt;    &lt;a href=&quot;javascript:void(0);&quot; class=&quot;attent&quot; id=&quot;span_add_follow&quot; title=&quot;[加关注]&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=&quot;javascript:void(0);&quot; class=&quot;letter&quot; title=&quot;[发私信]&quot; onclick=&quot;window.open(&#39;http://msg.csdn.net/letters/model?receiver=y1scp&#39;,&#39;_blank&#39;,&#39;height=350,width=700&#39;);_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_sixin&#39;])&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div id=&quot;blog_medal&quot;&gt;&lt;br&gt;                &lt;div id=&quot;bms_box&quot;&gt;&lt;br&gt;                                            &lt;a target=&quot;_blank&quot;&gt;&lt;br&gt;                                                    &lt;img src=&quot;http://c.csdnimg.cn/jifen/images/xunzhang/xunzhang/zhuanlandaren.png&quot; onmouseover=&quot;m_over_m(this,2)&quot; onmouseout=&quot;m_out_m()&quot; alt=&quot;1&quot;&gt;&lt;br&gt;                                            &lt;/a&gt;&lt;br&gt;               &lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;ul id=&quot;blog_rank&quot;&gt;&lt;br&gt;    &lt;li&gt;访问：&lt;span&gt;18337次&lt;/span&gt;&lt;/li&gt;&lt;br&gt;    &lt;li&gt;积分：&lt;span&gt;464&lt;/span&gt; &lt;/li&gt;&lt;br&gt;    &lt;li&gt;等级： &lt;span style=&quot;position:relative;display:inline-block;z-index:1&quot;&gt;&lt;br&gt;            &lt;img src=&quot;http://c.csdnimg.cn/jifen/images/xunzhang/jianzhang/blog2.png&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; id=&quot;leveImg&quot;&gt;&lt;br&gt;            &lt;div id=&quot;smallTittle&quot; style=&quot; position: absolute;  left: -24px;  top: 25px;  text-align: center;  width: 101px;  height: 32px;  background-color: #fff;  line-height: 32px;  border: 2px #DDDDDD solid;  box-shadow: 0px 2px 2px rgba (0,0,0,0.1);  display: none;   z-index: 999;&quot;&gt;&lt;br&gt;            &lt;div style=&quot;left: 42%;  top: -8px;  position: absolute;  width: 0;  height: 0;  border-left: 10px solid transparent;  border-right: 10px solid transparent;  border-bottom: 8px solid #EAEAEA;&quot;&gt;&lt;/div&gt;&lt;br&gt;            积分：464 &lt;/div&gt;&lt;br&gt;        &lt;/span&gt;  &lt;/li&gt;&lt;br&gt;    &lt;li&gt;排名：&lt;span&gt;千里之外&lt;/span&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul id=&quot;blog_statistics&quot;&gt;&lt;br&gt;    &lt;li&gt;原创：&lt;span&gt;16篇&lt;/span&gt;&lt;/li&gt;&lt;br&gt;    &lt;li&gt;转载：&lt;span&gt;0篇&lt;/span&gt;&lt;/li&gt;&lt;br&gt;    &lt;li&gt;译文：&lt;span&gt;0篇&lt;/span&gt;&lt;/li&gt;&lt;br&gt;    &lt;li&gt;评论：&lt;span&gt;38条&lt;/span&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/div&gt;
+
+
+&lt;div class=&quot;panel&quot; id=&quot;panel_Search&quot;&gt;&lt;br&gt;    &lt;ul class=&quot;panel_head&quot;&gt;&lt;span&gt;文章搜索&lt;/span&gt;&lt;/ul&gt;&lt;br&gt;    &lt;ul class=&quot;panel_body&quot;&gt;&lt;br&gt;        &lt;form id=&quot;frmSearch&quot; action=&quot;http://so.csdn.net/search&quot; class=&quot;form_search&quot; target=&quot;_blank&quot;&gt;&lt;br&gt;        &lt;span&gt;&lt;input id=&quot;inputSearch&quot; type=&quot;text&quot; class=&quot;blogsearch&quot; title=&quot;请输入关键字&quot;&gt;&lt;/span&gt;&lt;br&gt;        &lt;input id=&quot;btnSubmit&quot; type=&quot;button&quot; value=&quot;搜索&quot; title=&quot;search in blog&quot;&gt;&lt;br&gt;        &lt;input type=&quot;hidden&quot; name=&quot;q&quot; id=&quot;inputQ&quot;&gt;&lt;br&gt;        &lt;input type=&quot;hidden&quot; name=&quot;t&quot; value=&quot;blog&quot;&gt;&lt;br&gt;        &lt;a id=&quot;btnSearchBlog&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;br&gt;        &lt;/form&gt;&lt;br&gt;    &lt;/ul&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    $(function () {
+        $(&quot;#btnSubmit&quot;).click(function () {           
+            search();
+        });
+
+        $(&quot;#frmSearch&quot;).submit(function () {
+            search();
+            return false;
+        });
+
+        function search()
+        {
+            var url = &quot;http://so.csdn.net/so/search/s.do?q=&quot; + encodeURIComponent($(&quot;#inputSearch&quot;).val()) + &quot;&amp;u=&quot; + username + &quot;&amp;t=blog&quot;;
+            window.location.href = url;
+        }   
+    });
+&lt;/script&gt;&lt;div id=&quot;panel_Category&quot; class=&quot;panel&quot;&gt;
+    &lt;ul class=&quot;panel_head&quot;&gt;&lt;span&gt;博客专栏&lt;/span&gt;&lt;/ul&gt;
+    &lt;ul class=&quot;panel_body&quot; id=&quot;sp_column&quot;&gt;
+    &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:10px 10px 0 0;&quot;&gt;
+    &lt;a href=&quot;http://blog.csdn.net/column/details/baidumap.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151123180444989&quot; style=&quot;width:75px;height:75px;&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+    &lt;td style=&quot;padding:10px 0; vertical-align:top;&quot;&gt;
+    &lt;a href=&quot;http://blog.csdn.net/column/details/baidumap.html&quot; target=&quot;_blank&quot;&gt;玩转百度地图&lt;/a&gt;
+    &lt;p&gt;文章：7篇&lt;/p&gt;
+    &lt;span&gt;阅读：9186&lt;/span&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;&lt;/table&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;&lt;div id=&quot;panel_Category&quot; class=&quot;panel&quot;&gt;
+&lt;ul class=&quot;panel_head&quot;&gt;&lt;span&gt;文章分类&lt;/span&gt;&lt;/ul&gt;
+&lt;ul class=&quot;panel_body&quot;&gt;    
+                 &lt;li&gt;
+                    &lt;a href=&quot;/y1scp/article/category/3142345&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_wenzhangfenlei&#39;]); &quot;&gt;Android中级篇&lt;/a&gt;&lt;span&gt;(13)&lt;/span&gt;
+                &lt;/li&gt;
+                 &lt;li&gt;
+                    &lt;a href=&quot;/y1scp/article/category/5759133&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_wenzhangfenlei&#39;]); &quot;&gt;Android初级篇&lt;/a&gt;&lt;span&gt;(1)&lt;/span&gt;
+                &lt;/li&gt;
+                 &lt;li&gt;
+                    &lt;a href=&quot;/y1scp/article/category/5763317&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_wenzhangfenlei&#39;]); &quot;&gt;Android工具篇&lt;/a&gt;&lt;span&gt;(1)&lt;/span&gt;
+                &lt;/li&gt;
+                 &lt;li&gt;
+                    &lt;a href=&quot;/y1scp/article/category/3278889&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_wenzhangfenlei&#39;]); &quot;&gt;SSH&lt;/a&gt;&lt;span&gt;(1)&lt;/span&gt;
+                &lt;/li&gt;
+                 &lt;li&gt;
+                    &lt;a href=&quot;/y1scp/article/category/5880841&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;,&#39;function&#39;, &#39;onclick&#39;, &#39;blog_articles_wenzhangfenlei&#39;]); &quot;&gt;Android高级篇&lt;/a&gt;&lt;span&gt;(0)&lt;/span&gt;
+                &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div id=&quot;panel_Archive&quot; class=&quot;panel&quot;&gt;
+&lt;ul class=&quot;panel_head&quot;&gt;&lt;span&gt;文章存档&lt;/span&gt;&lt;/ul&gt;
+&lt;ul class=&quot;panel_body&quot;&gt;
+&lt;div id=&quot;archive_list&quot;&gt;
+&lt;!--归档统计--&gt;
+&lt;li&gt;&lt;a href=&quot;/y1scp/article/month/2015/11&quot;&gt;2015年11月&lt;/a&gt;&lt;span&gt;(2)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/y1scp/article/month/2015/10&quot;&gt;2015年10月&lt;/a&gt;&lt;span&gt;(2)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/y1scp/article/month/2015/09&quot;&gt;2015年09月&lt;/a&gt;&lt;span&gt;(2)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/y1scp/article/month/2015/08&quot;&gt;2015年08月&lt;/a&gt;&lt;span&gt;(7)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/y1scp/article/month/2015/05&quot;&gt;2015年05月&lt;/a&gt;&lt;span&gt;(2)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/y1scp/article/month/2015/04&quot;&gt;2015年04月&lt;/a&gt;&lt;span&gt;(1)&lt;/span&gt;&lt;/li&gt;
+&lt;/div&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;hotarticls&quot; class=&quot;panel&quot;&gt;
+&lt;ul class=&quot;panel_head&quot;&gt;
+    &lt;span&gt;       
+阅读排行    &lt;/span&gt;
+&lt;/ul&gt;
+
+&lt;ul class=&quot;panel_body itemlist&quot;&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/49095729&quot; title=&quot;Android中级篇之百度地图SDK v3.5.0-一步一步带你仿各大主流APP地图定位移动选址功能&quot;&gt;Android中级篇之百度地图SDK v3.5.0-一步一步带你仿各大主流APP地图定位移动选址功能&lt;/a&gt;&lt;span&gt;(6160)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/49245535&quot; title=&quot;Android图片加载神器之Fresco-加载图片基础[详细图解Fresco的使用]&quot;&gt;Android图片加载神器之Fresco-加载图片基础[详细图解Fresco的使用]&lt;/a&gt;&lt;span&gt;(6002)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/49734429&quot; title=&quot;Android图片加载神器之Fresco-圆形圆角二合一教程[Java代码实现圆形圆角效果]&quot;&gt;Android图片加载神器之Fresco-圆形圆角二合一教程[Java代码实现圆形圆角效果]&lt;/a&gt;&lt;span&gt;(970)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/48023947&quot; title=&quot;Android中级篇之百度地图SDK v3.5.0-配置环境及发布[图解AndroidStudio下配置.so文件]&quot;&gt;Android中级篇之百度地图SDK v3.5.0-配置环境及发布[图解AndroidStudio下配置.so文件]&lt;/a&gt;&lt;span&gt;(877)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/49593319&quot; title=&quot;Android图片加载神器之Fresco-更灵活的设置加载特效[Java代码实现XML效果]&quot;&gt;Android图片加载神器之Fresco-更灵活的设置加载特效[Java代码实现XML效果]&lt;/a&gt;&lt;span&gt;(627)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/48000761&quot; title=&quot;Android中级篇之百度地图SDK v3.5.0-申请密钥详解[AndroidStudio下获取SHA1]&quot;&gt;Android中级篇之百度地图SDK v3.5.0-申请密钥详解[AndroidStudio下获取SHA1]&lt;/a&gt;&lt;span&gt;(578)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/48154185&quot; title=&quot;Android中级篇之百度地图SDK v3.5.0-FragmentMap地图框架[图解SupportMapFragment类]&quot;&gt;Android中级篇之百度地图SDK v3.5.0-FragmentMap地图框架[图解SupportMapFragment类]&lt;/a&gt;&lt;span&gt;(538)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/48173957&quot; title=&quot;Android中级篇之百度地图SDK v3.5.0-百度地图定位[超详细图解定位基础]&quot;&gt;Android中级篇之百度地图SDK v3.5.0-百度地图定位[超详细图解定位基础]&lt;/a&gt;&lt;span&gt;(443)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/45267921&quot; title=&quot;Android中级篇之基于百度地图Android SDK v3.4.0开发实现定位&quot;&gt;Android中级篇之基于百度地图Android SDK v3.4.0开发实现定位&lt;/a&gt;&lt;span&gt;(416)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;/y1scp/article/details/47785209&quot; title=&quot;Android中级开发之Material Design-CardView初探&quot;&gt;Android中级开发之Material Design-CardView初探&lt;/a&gt;&lt;span&gt;(323)&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+    
+    &lt;div class=&quot;clear&quot;&gt;
+    &lt;/div&gt;
+    
+            &lt;div class=&quot;clear&quot;&gt;
+            &lt;/div&gt;
+        
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://c.csdnimg.cn/rabbit/cnick/cnick.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://static.blog.csdn.net/scripts/newblog.min.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://medal.blog.csdn.net/showblogmedal.ashx?blogid=5015007&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://static.blog.csdn.net/scripts/JavaScript1.js&quot;&gt;&lt;/script&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://passport.csdn.net/content/loginbox/login.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;script type=&quot;text/javascript&quot;&gt;document.write(&quot;&lt;img src=http://counter.csdn.net/pv.aspx?id=24 border=0 width=0 height=0&gt;&quot;);&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.csdn.net/ui/scripts/Csdn/counter.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://ad.csdn.net/scripts/ad-blog.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    $(function () {
+        function __get_code_toolbar(snippet_id) {
+            return $(&quot;&lt;span class=&#39;tracking-ad&#39; data-mod=&#39;popu_167&#39;&gt;&lt;a href=&#39;https://code.csdn.net/snippets/&quot;
+                    + snippet_id
+                    + &quot;&#39; target=&#39;_blank&#39; title=&#39;在CODE上查看代码片&#39;  style=&#39;text-indent:0;&#39;&gt;&lt;img src=&#39;https://code.csdn.net/assets/CODE_ico.png&#39; width=12 height=12 alt=&#39;在CODE上查看代码片&#39; style=&#39;position:relative;top:1px;left:2px;&#39;/&gt;&lt;/a&gt;&lt;/span&gt;&quot;
+                    + &quot;&lt;span class=&#39;tracking-ad&#39; data-mod=&#39;popu_170&#39;&gt;&lt;a href=&#39;https://code.csdn.net/snippets/&quot;
+                    + snippet_id
+                    + &quot;/fork&#39; target=&#39;_blank&#39; title=&#39;派生到我的代码片&#39; style=&#39;text-indent:0;&#39;&gt;&lt;img src=&#39;https://code.csdn.net/assets/ico_fork.svg&#39; width=12 height=12 alt=&#39;派生到我的代码片&#39; style=&#39;position:relative;top:2px;left:2px;&#39;/&gt;&lt;/a&gt;&lt;/span&gt;&quot;);
+        }
+
+        $(&quot;[code_snippet_id]&quot;).each(function () {
+            __s_id = $(this).attr(&quot;code_snippet_id&quot;);
+            if (__s_id != null &amp;&amp; __s_id != &quot;&quot; &amp;&amp; __s_id != 0 &amp;&amp; parseInt(__s_id) &gt; 70020) {
+                __code_tool = __get_code_toolbar(__s_id);
+                $(this).prev().find(&quot;.tools&quot;).append(__code_tool);
+            }
+        });
+
+        $(&quot;.bar&quot;).show();
+    });
+&lt;/script&gt;
+
+
+
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;
+  &amp;lt;!--new top--&amp;gt;
+
+&amp;lt;script id=&amp;quot;csdn-toolbar-id&amp;quot; btnId=&amp;quot;header_notice_num&amp;quot; wrapId=&amp;quot;note1&amp;quot; count=&amp;quot;5&amp;quot; subCount=&amp;quot;5&amp;quot; type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://c.csdnimg.cn/public/common/toolbar/js/toolbar.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+ &amp;lt;!--new top--&amp;gt;
+
+&amp;lt;link href=&amp;quot;http://c.csdnimg.cn/comm_ask/css/ask_float_block.css&amp;quot; type=&amp;quot;text/css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; /&amp;gt;
+&amp;lt;script language=&amp;apos;JavaScript&amp;apos; type=&amp;apos;text/javascript&amp;apos; src=&amp;apos;http://c.csdnimg.cn/comm_ask/js/libs/wmd.js&amp;apos;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script language=&amp;apos;JavaScript&amp;apos; type=&amp;apos;text/javascript&amp;apos; src=&amp;apos;http://c.csdnimg.cn/comm_ask/js/libs/showdown.js&amp;apos;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script language=&amp;apos;JavaScript&amp;apos; type=&amp;apos;text/javascript&amp;apos; src=&amp;apos;http://c.csdnimg.cn/comm_ask/js/libs/prettify.js&amp;apos;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script language=&amp;apos;JavaScript&amp;apos; type=&amp;apos;text/javascript&amp;apos; src=&amp;apos;http://c.csdnimg.cn/comm_ask/js/apps/ask_float_block.js&amp;apos;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;br&gt;   &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;link href=&quot;http://static.blog.csdn.net/css/comment1.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;link href=&quot;http://static.blog.csdn.ne
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>使用GithubPages-Hexo搭建免费博客（三）</title>

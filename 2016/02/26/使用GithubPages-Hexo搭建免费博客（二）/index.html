@@ -3,16 +3,20 @@
 <head>
   <meta charset="utf-8" />
   
-  <title>Hexo</title>
+  <title>使用GithubPages-Hexo搭建免费博客（二） | Hexo</title>
   <meta name="author" content="Xiaobo Hu" />
 
+  
+  <meta name="description" content="上篇讲到Hexo的安装，本篇继续，先来说说Hexo安装后的文件结构与功能。
+HEXO博客配置1. Hexo设置打开根目录下的_config.yml文件
+1.1 站点配置12345671 # Site2 title: myblog   # 网站标题3 subtitle:      # 网站子标题4 d" />
   
 
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-  
+  <meta property="og:title" content="使用GithubPages-Hexo搭建免费博客（二）" />
   <meta property="og:site_name" content="Hexo" />
 
   
@@ -55,63 +59,7 @@
 </nav>
 <div class="clearfix"></div></header>
   <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper">
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-03-02T15:52:40.000Z"><a href="/2016/03/02/使用GithubPages-Hexo搭建免费博客（三）/">2016-03-02</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2016/03/02/使用GithubPages-Hexo搭建免费博客（三）/">使用GithubPages-Hexo搭建免费博客（三）</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <h2 id="域名绑定"><a href="#域名绑定" class="headerlink" title="域名绑定"></a>域名绑定</h2><ul>
-<li>域名解析<br>域名购买成功后，在解析设置中添加以下解析</li>
-</ul>
-<p><img src="http://7xr7f9.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-03%20%E4%B8%8A%E5%8D%8812.02.04.png" alt=""></p>
-<p>记录类型为：A<br>主机记录分别为“@”，“wwww”。其中设置@，可以用xxx.com进行访问。设置www，可以使用www.xxx.com进行访问。<br>记录值都为 “192.30.252.153”</p>
-<ul>
-<li>添加CNAME文件</li>
-</ul>
-<p>打开自己本地的博客目录，在source文件夹下创建名为CNAME的文本文件。打开，输入自己的域名，格式为“xxx.com”，保存后使用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>部署到github。</p>
-<p>至此，便可使用我们自己的域名进行访问了！</p>
-<h2 id="图片存储"><a href="#图片存储" class="headerlink" title="图片存储"></a>图片存储</h2><p>可以使用<a href="https://portal.qiniu.com/" target="_blank" rel="external">七牛云存储</a></p>
-<h2 id="Mac上好用的GIF图截屏工具"><a href="#Mac上好用的GIF图截屏工具" class="headerlink" title="Mac上好用的GIF图截屏工具"></a><a href="http://www.cockos.com/licecap/" target="_blank" rel="external">Mac上好用的GIF图截屏工具</a></h2>
-      
-    </div>
-    
-    <footer>
-        <div class="alignright">
-          
-          <a href='javascript:void(0)' class="share-link bdsharebuttonbox" data-cmd="more">分享</a>
-        </div>
-        
-        
-  
-  <div class="tags">
-    <a href="/tags/博客/">博客</a>, <a href="/tags/Hexo/">Hexo</a>
-  </div>
-
-        <!-- partial('post/share') -->
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
-
-  <article class="post">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
   
   <div class="post-content">
     <header>
@@ -121,7 +69,7 @@
       
       
   
-    <h1 class="title"><a href="/2016/02/26/使用GithubPages-Hexo搭建免费博客（二）/">使用GithubPages-Hexo搭建免费博客（二）</a></h1>
+    <h1 class="title">使用GithubPages-Hexo搭建免费博客（二）</h1>
   
 
     </header>
@@ -252,138 +200,6 @@
 
 
 
-
-
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-02-25T07:53:51.000Z"><a href="/2016/02/25/使用GithubPages-Hexo搭建免费博客（一）/">2016-02-25</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2016/02/25/使用GithubPages-Hexo搭建免费博客（一）/">使用GithubPages-Hexo搭建免费博客_Mac（一）</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p><img src="http://7xr7f9.com1.z0.glb.clouddn.com/A5FBB7EA-1FC0-45DD-ACC5-FB49737D9237.png" alt=""></p>
-<h3 id="关于MarkDown"><a href="#关于MarkDown" class="headerlink" title="关于MarkDown"></a>关于MarkDown</h3><p>Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。</p>
-<p>其详细的介绍，可以看下<a href="http://wowubuntu.com/markdown/#list" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a></p>
-<h5 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h5><ul>
-<li>专注你的文字内容，排版样式也只是需要键盘即可搞定</li>
-<li>纯文本，兼容所有的文本编辑器与文字处理软件</li>
-<li>可读，直观，简介，学习成本低</li>
-</ul>
-<p>#####<a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">Markdown使用示例</a></p>
-<h5 id="书写工具"><a href="#书写工具" class="headerlink" title="书写工具"></a>书写工具</h5><p>Mac下有两款优秀的 Markdown 编辑器，<a href="http://25.io/mou/" target="_blank" rel="external">Mou</a>和<a href="http://macdown.uranusjr.com/" target="_blank" rel="external">MacDown</a></p>
-<p><img src="http://25.io/mou/Mou_128.png" alt="Mou icon"><br><img src="http://macdown.uranusjr.com/static/base/img/logo-160.png" alt="MacDown logo"></p>
-<h2 id="关于其优缺点，可以移步这里-至于选择哪款，看个人喜好。"><a href="#关于其优缺点，可以移步这里-至于选择哪款，看个人喜好。" class="headerlink" title="关于其优缺点，可以移步这里,至于选择哪款，看个人喜好。"></a>关于其优缺点，可以移步<a href="http://www.jianshu.com/p/6c157af09e84" target="_blank" rel="external">这里</a>,至于选择哪款，看个人喜好。</h2><h3 id="关于Hexo"><a href="#关于Hexo" class="headerlink" title="关于Hexo"></a>关于Hexo</h3><p>Hexo是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo官网</a></p>
-<h3 id="关于GithubPages"><a href="#关于GithubPages" class="headerlink" title="关于GithubPages"></a>关于GithubPages</h3><p>在Github里面，每一个项目都拥有它的一个主页，列出项目的源文件，但是对于新手来说，看到那么多的源代码，只会让人感到头晕脑胀，无从下手，他更希望的是，该项目有一个简明易懂的页面，告诉他每一步要怎么去做。</p>
-<p>因此，Github就设计了Github Pages这个功能，允许用户自定义项目首页，用来替代默认的源码列表。所以，Github Pages可以被认为是用户编写的、托管在github上的静态网页。</p>
-<p>通过上面的介绍，大家对Hexo和Github已经有了大概的了解。<br>我们的方式就是，利用Markdown进行博客的编写，通过Hexo这个框架解析生成靓丽的静态页面，然后部署到Github上供大家浏览。</p>
-<h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><ul>
-<li>硬件<br>此版本为Mac版👽</li>
-<li>软件<ol>
-<li>node.js</li>
-<li>npm</li>
-<li>hexo</li>
-<li>github账号</li>
-</ol>
-</li>
-</ul>
-<h3 id="安装node-js与npm"><a href="#安装node-js与npm" class="headerlink" title="安装node.js与npm"></a>安装node.js与npm</h3><p>下载node.js 有多种方法：使用 <a href="http://brew.sh/index_zh-cn.html" target="_blank" rel="external">Homebrew</a> 下载 或者直接下载安装包。 建议 node.js 直接下载 安装包，因为使用 brew 有可能失败，会被墙掉。</p>
-<p><a href="https://nodejs.org/en/download/" target="_blank" rel="external">node.js下载地址</a> </p>
-<p><img src="http://7xr7f9.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-02-26%20%E4%B8%8B%E5%8D%883.37.18.png" alt=""></p>
-<p>node.js 下载完成后 安装到电脑上就可以了。安装成功后显示出来安装路径，可以看到 安装node.js 的时候 npm 也安装了。</p>
-<p>检测安装是否成功 终端输入 -v , 成功则显示版本号</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ node -v</span><br><span class="line">v4.3.1</span><br><span class="line">$ npm -v</span><br><span class="line">2.14.12</span><br></pre></td></tr></table></figure>
-<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo</a></h3><p>文档里给出了详细的安装方法，只需要按其一步步来就好</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<p>-v表示全局安装，所以需要使用管理员身份</p>
-<p>安装成功，使用hexo 命令的时候，可能会出现以下错误</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123; [Error: Cannot find module &apos;./build/Release/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;    </span><br><span class="line">&#123; [Error: Cannot find module &apos;./build/default/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</span><br><span class="line">&#123; [Error: Cannot find module &apos;./build/Debug/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</span><br></pre></td></tr></table></figure>
-<p>据说是由于GFW的问题，导致安装Hexo的时候少装了几个库。</p>
-<p>查询出的解决方法为，使用以下命令行重新安装</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo –no-optional</span><br></pre></td></tr></table></figure>
-<p>然而于我而言，并没有什么卵用。这个错误也没有造成任何影响，所以忽略，Go on。<br>完成后，验证下是否安装成功</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<h4 id="Hexo的使用"><a href="#Hexo的使用" class="headerlink" title="Hexo的使用"></a>Hexo的使用</h4><h5 id="1-创建存放博客的文件夹"><a href="#1-创建存放博客的文件夹" class="headerlink" title="1. 创建存放博客的文件夹"></a>1. 创建存放博客的文件夹</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir myblog</span><br></pre></td></tr></table></figure>
-<h5 id="2-执行以下命令，Hexo会在目标文件夹建立博客所需要的文件"><a href="#2-执行以下命令，Hexo会在目标文件夹建立博客所需要的文件" class="headerlink" title="2. 执行以下命令，Hexo会在目标文件夹建立博客所需要的文件"></a>2. 执行以下命令，Hexo会在目标文件夹建立博客所需要的文件</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-<p> 输出以下信息</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">INFO  Cloning hexo-starter to ~/Documents/mytest</span><br><span class="line">Cloning into &apos;/Users/Quncao/Documents/mytest&apos;...</span><br></pre></td></tr></table></figure>
-<p>成功之后文件夹的样子<br><img src="http://7xr7f9.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-02-26%20%E4%B8%8B%E5%8D%884.13.00.png" alt=""></p>
-<ul>
-<li>_config.yml : Hexo和站点的配置文件，里面可以设置博客的名字、标题、作者、链接格式等相关项</li>
-<li>scaffolds : 脚手架，用于存放我们创建文章时的模版</li>
-<li>source : 用于存放我们用markdown编写的博文原文件、其他静态资源文件</li>
-<li>themes : 用于存放主题，里面有我们博客的默认主题landscape</li>
-</ul>
-<h5 id="3-执行以下命令，进行依赖包的安装"><a href="#3-执行以下命令，进行依赖包的安装" class="headerlink" title="3. 执行以下命令，进行依赖包的安装"></a>3. 执行以下命令，进行依赖包的安装</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install</span><br></pre></td></tr></table></figure>
-<ul>
-<li>node_modules: 关联保存了将会使用到的hexo依赖包</li>
-</ul>
-<h5 id="4-安装相关插件"><a href="#4-安装相关插件" class="headerlink" title="4. 安装相关插件"></a>4. 安装相关插件</h5><p>插件会安装至node_modules文件夹下，如果已经安装好的可以直接忽略</p>
-<ul>
-<li><p>安装便于自动部署到Github上的插件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装atom生成插件，便于感兴趣的小伙伴们订阅</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装博客首页生成插件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-index --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装归档生成插件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-archive --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装tag生成插件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-tag --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装category生成插件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-category --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装Sitemap文件生成插件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装百度Sitemap文件生成插件，因为普通的Sitemap格式不符合百度的要求</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>未完待续，继续请移步<a href="http://icehulu.com/2016/02/26/%E4%BD%BF%E7%94%A8GithubPages-Hexo%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/" target="_blank" rel="external">这里</a></p>
-
-      
-    </div>
-    
-    <footer>
-        <div class="alignright">
-          
-          <a href='javascript:void(0)' class="share-link bdsharebuttonbox" data-cmd="more">分享</a>
-        </div>
-        
-        
-  
-  <div class="tags">
-    <a href="/tags/博客/">博客</a>, <a href="/tags/Hexo/">Hexo</a>
-  </div>
-
-        <!-- partial('post/share') -->
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
-
-
-<nav id="pagination">
-  
-</nav>
 </div></div>
     <aside id="sidebar" class="alignright">
   <div class="search">
